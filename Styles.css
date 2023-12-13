@@ -1,0 +1,271 @@
+body {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    font-weight: 100;
+    font-size: 1.2rem;
+    background-color: rgb(189, 107, 99);
+    border-bottom: 1px #6d150d solid;
+
+}
+
+#nav-bar .nav-link {
+    color: white;
+   font-weight: 100;
+}
+
+#nav-bar .nav-link:hover {
+    color: #5a5352;
+    font-weight: 400;
+} 
+
+#nav-bar .navbar-brand {
+    color: black;
+    font-weight: 500;
+}
+
+#secFirst {
+    background-color: #ffd7ba;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #6d150d;
+    letter-spacing: 6px;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #ae2012;
+    letter-spacing: 1px;
+    font-family: serif;
+    
+}
+
+p {
+    font-size: 1rem;
+    color: #c9776f;
+    
+}
+
+
+
+
+#submit {
+    background-color: #5a5352;
+    border: 1px #5a5352 solid;
+    color: white;
+} 
+
+#submit:hover {
+    color: #ebb9b3;
+    background-color: #332e2d;
+}
+
+
+input[type=email] {
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #9e4b43c5;
+    border-radius: 5px;
+}
+
+#secFeatures {
+    
+}
+
+#featuresText {
+    margin: 7rem 0 1rem 0;
+}
+
+#featuresRow {
+    margin:7rem 5rem;
+}
+
+div.featuresCol {
+    background-color: #ffd7ba;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ffd7ba;
+    border-radius: 0.8rem;
+    
+
+}
+img.colPic {
+    width: 80px;
+    height: 80px;
+}
+
+div.colText {
+    font-size: 0.8rem;
+    color:#5a5352;
+    
+}
+
+#secVideo {
+    display: flex;
+    justify-content: center;
+}
+
+#secPricing {
+    
+    margin: 5rem 0;
+}
+
+.pricingCol {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.pricingHead {
+    color: #ae2012;
+    font-family: 'IM Fell French Canon', serif;
+}
+
+li.pricingText {
+    list-style: none;
+    padding: 0.2rem;
+    color: #5a5352;
+    
+}
+
+.selectButton {
+        background-color: #363636;
+        border: 1px #332e2d solid;
+        color: white
+}
+
+.selectButton:hover {
+    color: white;
+    background-color: black;
+    border: 1px black solid;
+}
+#footerSec {
+    background-color: #c9776f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5rem 0 5rem;
+}
+div.footerContainer {
+    display: flex;
+    flex-direction: row;
+}
+.socialIcons {
+    margin: 0 0.7rem 1.5rem 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 456px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #featuresRow {
+        margin:7rem 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    img.colPic {
+        width: 50px;
+        height: 50px;
+    }
+    
+    div.colText {
+        font-size: 0.6rem;
+    }
+
+    h2.pricingHead {
+        font-size: 2rem;
+    }
+    li.pricingText {
+        font-size: 0.8rem;
+    }
+
+}
+@media (max-width: 768px) {
+    div.featuresCol {
+        margin: 1.5rem 0;
+        border: none;    
+    } 
+
+    div.colText {
+        font-size: 0.9rem
+    }
+
+    iframe {
+    width: 450px;
+    height: 200px;
+    }
+    
+    h2.pricingHead {
+        padding-top: 2rem;
+    }
+
+    li.pricingText:last-of-type {
+        padding-bottom: 1.2rem;
+    }
+
+    .priceImg {
+        padding-bottom: 1.5rem;
+    }
+    
+    .selectButton {
+        padding: 0.3rem 2.5rem;
+        margin-bottom: 3rem;
+    }
+    .pricingCol {
+        border-bottom: 1px solid grey;
+    }
+
+    p.footerText {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 448px) {
+    p.footerText {
+        font-size: 0.6rem;
+    }
+}
+
+
+
